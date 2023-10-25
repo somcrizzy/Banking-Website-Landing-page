@@ -1,4 +1,164 @@
-.experience{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HERO */
+
+.hero-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5em;
+}
+
+.hero-content {
+    padding-left: 4em;
+    padding-top: 2em;
+}
+
+.hero-intro {
+    color: #000000;
+    font-family: Metropolis;
+    font-size: 4.5em;
+    font-weight: 900;
+    width: 8em;
+    margin-top: 2em;
+    line-height: 0.8em;
+}
+
+.herotxt {
+    width: 380px;
+    color:  #676767;
+    font-family: Metropolis;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.5em 0;
+}
+
+.herobtn {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#apply_btn {
+    width: 12em;
+    height: 3.6em;
+    border-radius: 0.4em;
+    border: none;
+    background: #ED017F;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+#loan_btn {
+    width: 15.5em;
+    height: 3.6em;
+    border-radius: 0.4em;
+    border: 0.2em solid #ED017F;
+    color:  #ED017F;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.media {
+    margin-top: 6em;
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border-radius: 15px;
+}
+
+.social {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.hero-banner {
+    background-color: #FFEAF5;
+    width: 50%;
+    z-index: -1;
+    /* height: 35em; */
+}
+
+.heroimg {
+    /* position: absolute; */
+    width: 100%;
+    /* height: 34em; */
+    z-index: 1;
+    margin-top: 6em;
+}
+
+.carLoan, .houseLoan {
+    display: inline-flex;
+    height: 4em;
+    padding: 0 2em;
+    align-items: center;
+    gap: 1em;
+    border-radius: 5em;
+    background: #FFF;
+    box-shadow: 4px 4px 58px 0px rgba(0, 0, 0, 0.12);
+    position: absolute;
+}
+
+.carLoan {
+    top: 8em;
+    left: 35em;
+}
+
+.houseLoan {
+    top: 12em;
+    right: 1em;
+}
+
+.ellipse {
+    position: absolute;
+    right: 2em;
+    top: 23em;
+    display: inline-flex;
+    height: 91px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.pink {
+    width: 13px;
+    height: 13px;
+    background-color: #F467B2;
+    border-radius: 50%;
+}
+
+.ash {
+    width: 8px;
+    height: 8px;
+    background-color: #CCC;
+    border-radius: 50%;
+}
+
+/* HERO ended here */
+
+/* .experience{
     width: 100%;
     height: 600px;
 }
@@ -6,7 +166,7 @@
     width: 90%;
     height: 570px;
     margin: auto;
-}
+} */
 .exp-details h1{
     color: var(--black-80, #343434);
 text-align: center;

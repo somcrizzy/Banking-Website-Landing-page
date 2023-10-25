@@ -1,4 +1,48 @@
 /* MOBILE RESPONSIVE*/
 @media  screen and (max-width: 768px) {
+  
+  /* HERO */
+  .hero-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    margin-top: 30em;
+    margin-left: 5em;
+   }
+
+.hero-intro {
+    margin-top: 1em;
+}
+
+.media {
+    margin: 2em;
+}
+
+.hero-banner {
+    background-color: #FFEAF5;
+    width: 100%;
     
+}
+
+.heroimg {
+    width: 35em;
+    height: 23em;
+}
+
+.carLoan {
+    top: 40em;
+    left: 30em;
+}  
+
+.houseLoan {
+    top: 47em;
+    right: 1em;
+}
+
+.ellipse {
+    right: 2em;
+    top: 38em;
+}
 }
